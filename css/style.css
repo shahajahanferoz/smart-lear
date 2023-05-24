@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header  */
+.slider-item{
+    background-color: #161615;
+}
+.slider-item img{
+    opacity: .4;
+    height: 700px;
+}
+.slider-text-area{
+    padding-bottom: 215px;
+}
+.slide-big-font{
+    font-size: 70px;
+}
