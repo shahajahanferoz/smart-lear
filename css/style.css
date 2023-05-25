@@ -16,3 +16,67 @@ body{
 .slide-big-font{
     font-size: 70px;
 }
+
+/* Course Section  */
+.discover-title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+.discover-details{
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+.course{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.thumbnail img{
+    width: 200px;
+    height: 200px;
+}
+.course-details{
+    padding: 0px 24px
+}
+.course-title{
+    color: #4A4A4A;
+    font-size: 25px;
+    font-weight: 600;
+}
+.course-info{
+    color: #777777;
+    font-size: 16px;
+    line-height: 24px;
+}
+.course-price{
+    color: #289BDE;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+/* Explore learning */
+.row-custom{
+    padding: 0;
+}
+.explore{
+    background-color:  #F4FAFD;
+}
+.counting-text{
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+}
+
+/* FAQ  */
+.faq{
+    margin: 5rem 14rem;
+}
+
+/* footer  */
+footer{
+    padding: 12rem 0;
+    background-color: #161615;
+}
