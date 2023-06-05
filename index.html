@@ -59,7 +59,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active slider-item" data-bs-interval="10000">
             <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block text-white slider-text-area">
+            <div class="carousel-caption d-none d-sm-block text-white slider-text-area">
               <h1 class="slide-big-font">Get Started Digital Learning</h1>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
               <div class="btn btn-primary px-4 py-2 rounded">Get Started</div>
@@ -67,7 +67,7 @@
           </div>
           <div class="carousel-item slider-item" data-bs-interval="10000">
             <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block text-white slider-text-area">
+            <div class="carousel-caption d-none d-sm-block text-white slider-text-area">
               <h1 class="slide-big-font">Get Started Digital Learning</h1>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
               <div class="btn btn-primary px-4 py-2 rounded">Get Started</div>
@@ -75,7 +75,7 @@
           </div>
           <div class="carousel-item slider-item" data-bs-interval="10000">
             <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block text-white slider-text-area">
+            <div class="carousel-caption d-none d-sm-block text-white slider-text-area">
               <h1 class="slide-big-font">Get Started Digital Learning</h1>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
               <div class="btn btn-primary px-4 py-2 rounded">Get Started</div>
@@ -139,7 +139,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-sm-none d-lg-block">
               <div class="course d-flex align-items-center">
                 <div class="thumbnail">
                  <img class="img-flui" src="images/course/course-4.png" alt="">
@@ -151,7 +151,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-sm-none d-lg-block">
               <div class="course d-flex align-items-center">
                 <div class="thumbnail">
                  <img class="img-flui" src="images/course/course-5.png" alt="">
@@ -163,7 +163,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-sm-none d-lg-block">
               <div class="course d-flex align-items-center">
                 <div class="thumbnail">
                  <img class="img-flui" src="images/course/course-6.png" alt="">
@@ -184,10 +184,10 @@
       <!-- Explore learning start  -->
       <section class="container explore rounded my-5">
         <div class="row ">
-          <div class="col-lg-5 row-custom">
+          <div class="col-md-5 row-custom">
             <img src="images/working.png" alt="" class="img-fluid">
           </div>
-          <div class="col-lg-7 d-flex align-items-center ps-5">
+          <div class="col-md-7 d-flex align-items-center ps-5">
             <div>
               <h1 class="discover-title">Explore The elearning Institute</h1>
               <p class="discover-details">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
@@ -219,8 +219,8 @@
       </section>
       <!-- Ready To Join Section  -->
       <section class="container bg-primary rounded">
-        <div class="d-flex justify-content-between align-items-center p-5">
-          <div class="w-50">
+        <div class="d-lg-flex justify-content-between align-items-center p-5 text-center">
+          <div class="d-w-50">
             <h2 class="text-white discover-title">Ready to join?</h2>
             <p class="discover-details text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
           </div>
@@ -250,58 +250,60 @@
       </section>
       <!-- FAQ Sectiion  -->
       <section class="container">
-        <div class="faq">
-          <div class="text-center p-5 mx-5">
-            <h2 class="discover-title">Frequently Asked Questions</h2>
-            <p class="discover-details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-          </div>
-          <!-- Accordion section -->
-          <div class="accordion" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  What are the difference between grid and flexbox.
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                  The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+        <div class="d-flex justify-content-center">
+          <div class="faq my-5">
+            <div class="text-center p-5 mx-5">
+              <h2 class="discover-title">Frequently Asked Questions</h2>
+              <p class="discover-details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <!-- Accordion section -->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    What are the difference between grid and flexbox.
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  what are the difference between bootstrap and tailwind.
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Bootstrap is used for creating responsive web and mobile applications whereas Tailwind CSS is used to create customized user interfaces. We have discussed their advantages and difference between them.
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    what are the difference between bootstrap and tailwind.
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Bootstrap is used for creating responsive web and mobile applications whereas Tailwind CSS is used to create customized user interfaces. We have discussed their advantages and difference between them.
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  What is CSS box model?
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    What is CSS box model?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                  What is semantic tag in html?
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like header, article, and footer are semantic HTML tags. They clearly indicate the role of the content they contain. On the other hand, tags like div and span are typical examples of non-semantic HTML elements.
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fw-semibold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    What is semantic tag in html?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Semantic HTML tags are tags that define the meaning of the content they contain. For example, tags like header, article, and footer are semantic HTML tags. They clearly indicate the role of the content they contain. On the other hand, tags like div and span are typical examples of non-semantic HTML elements.
+                  </div>
                 </div>
               </div>
             </div>
